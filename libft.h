@@ -6,7 +6,7 @@
 /*   By: oiyoke <oiyoke@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/18 09:28:36 by oiyoke            #+#    #+#             */
-/*   Updated: 2019/10/04 20:09:04 by oiyoke           ###   ########.fr       */
+/*   Updated: 2019/10/14 16:47:44 by oiyoke           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,6 +48,7 @@ void				ft_putnbr(int nb);
 void				ft_putchar_fd(char c, int fd);
 void				ft_putnbr_fd(int nb, int fd);
 void				ft_putendl(char const *s);
+void				ft_putendl_fd(char const *s, int fd);
 char				*ft_strnew(size_t n);
 void				ft_strdel(char **as);
 void				ft_strclr(char *s);
