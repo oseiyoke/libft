@@ -6,7 +6,7 @@
 /*   By: oiyoke <oiyoke@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/18 09:28:36 by oiyoke            #+#    #+#             */
-/*   Updated: 2019/10/14 16:47:44 by oiyoke           ###   ########.fr       */
+/*   Updated: 2019/10/14 17:02:12 by oiyoke           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -81,5 +81,10 @@ int					ft_strcmp(const char *s1, const char *s2);
 char				*ft_strchr(const char *s, int c);
 unsigned int		ft_strlcat(char *dest, char *src, unsigned int size);
 char				*ft_strncat(char *s1, const char *s2, size_t n);
+void				ft_lstdisplay(t_list *begin);
+int					ft_isspace(int c);
+void				ft_lstaddend(t_list **alst, t_list *new);
+int					ft_isupper(int c);
+int					ft_islower(int c);
 
 #endif
